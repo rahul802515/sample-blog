@@ -1,0 +1,26 @@
+@media screen and (max-width:1000px){
+    .navigation{
+        flex-direction:column;
+         margin-bottom:30px;
+    }
+    .nav-left{
+        flex-direction:column;
+        text-align:center;
+        margin-bottom:6px;
+    }
+    .content-right{
+        display:none;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article-img{
+        text-align: center;
+    }
+    .form-input{
+        width:50%;
+    }
+    .blogpost-img{
+        height:auto;
+    }
+}

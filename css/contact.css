@@ -1,0 +1,31 @@
+.contact-content{
+    height:100%;
+    /* background-color: blue; */
+    display:block;
+    margin-top: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.contact-content::after{
+    content:"";
+    background-image: url('../images/img3.jpg');
+    position: absolute;
+    width: 100%;
+    height:inherit;
+    opacity: 0.1;
+    top: 0;
+    z-index:-1;
+}
+
+.box{
+    width:50vw;
+    margin: 8px 0px;
+    padding:10px 6px;
+    font-size: 15px;
+    font-family: var(--font2);
+    border-radius: 8px;
+    border: 2px solid orange;
+}
+
+
